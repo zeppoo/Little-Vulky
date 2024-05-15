@@ -39,13 +39,13 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\
+cmake_ninja_workdir = C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -56,7 +56,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -74,7 +74,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles\install.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -86,7 +86,7 @@ build install: phony CMakeFiles\install.util
 # Utility command for install/local
 
 build CMakeFiles\install\local.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -95,7 +95,7 @@ build install\local: phony CMakeFiles\install\local.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/CMakeLists.txt
+# C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -107,33 +107,33 @@ build install\local: phony CMakeFiles\install\local.util
 
 build cmake_object_order_depends_target_VulkanWindow: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm cmake_object_order_depends_target_imgui
 
-build src\CMakeFiles\VulkanWindow.dir\main.cpp.obj: CXX_COMPILER__VulkanWindow_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\src\main.cpp || cmake_object_order_depends_target_VulkanWindow
+build src\CMakeFiles\VulkanWindow.dir\main.cpp.obj: CXX_COMPILER__VulkanWindow_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\src\main.cpp || cmake_object_order_depends_target_VulkanWindow
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI -std:c++20
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glm -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui -external:IC:\VulkanSDK\1.3.280.0\Include -external:W0
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glm -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui -external:IC:\VulkanSDK\1.3.280.0\Include -external:W0
   OBJECT_DIR = src\CMakeFiles\VulkanWindow.dir
   OBJECT_FILE_DIR = src\CMakeFiles\VulkanWindow.dir
   TARGET_COMPILE_PDB = src\CMakeFiles\VulkanWindow.dir\
   TARGET_PDB = src\VulkanWindow.pdb
 
-build src\CMakeFiles\VulkanWindow.dir\lve_window.cpp.obj: CXX_COMPILER__VulkanWindow_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\src\lve_window.cpp || cmake_object_order_depends_target_VulkanWindow
+build src\CMakeFiles\VulkanWindow.dir\lve_window.cpp.obj: CXX_COMPILER__VulkanWindow_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\src\lve_window.cpp || cmake_object_order_depends_target_VulkanWindow
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI -std:c++20
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glm -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui -external:IC:\VulkanSDK\1.3.280.0\Include -external:W0
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glm -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui -external:IC:\VulkanSDK\1.3.280.0\Include -external:W0
   OBJECT_DIR = src\CMakeFiles\VulkanWindow.dir
   OBJECT_FILE_DIR = src\CMakeFiles\VulkanWindow.dir
   TARGET_COMPILE_PDB = src\CMakeFiles\VulkanWindow.dir\
   TARGET_PDB = src\VulkanWindow.pdb
 
-build src\CMakeFiles\VulkanWindow.dir\first_app.cpp.obj: CXX_COMPILER__VulkanWindow_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\src\first_app.cpp || cmake_object_order_depends_target_VulkanWindow
+build src\CMakeFiles\VulkanWindow.dir\first_app.cpp.obj: CXX_COMPILER__VulkanWindow_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\src\first_app.cpp || cmake_object_order_depends_target_VulkanWindow
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI -std:c++20
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glm -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui -external:IC:\VulkanSDK\1.3.280.0\Include -external:W0
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glm -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui -external:IC:\VulkanSDK\1.3.280.0\Include -external:W0
   OBJECT_DIR = src\CMakeFiles\VulkanWindow.dir
   OBJECT_FILE_DIR = src\CMakeFiles\VulkanWindow.dir
   TARGET_COMPILE_PDB = src\CMakeFiles\VulkanWindow.dir\
   TARGET_PDB = src\VulkanWindow.pdb
 
-build src\CMakeFiles\VulkanWindow.dir\lve_pipeline.cpp.obj: CXX_COMPILER__VulkanWindow_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\src\lve_pipeline.cpp || cmake_object_order_depends_target_VulkanWindow
+build src\CMakeFiles\VulkanWindow.dir\lve_device.cpp.obj: CXX_COMPILER__VulkanWindow_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\src\lve_device.cpp || cmake_object_order_depends_target_VulkanWindow
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI -std:c++20
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glm -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui -external:IC:\VulkanSDK\1.3.280.0\Include -external:W0
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glm -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui -external:IC:\VulkanSDK\1.3.280.0\Include -external:W0
   OBJECT_DIR = src\CMakeFiles\VulkanWindow.dir
   OBJECT_FILE_DIR = src\CMakeFiles\VulkanWindow.dir
   TARGET_COMPILE_PDB = src\CMakeFiles\VulkanWindow.dir\
@@ -147,7 +147,7 @@ build src\CMakeFiles\VulkanWindow.dir\lve_pipeline.cpp.obj: CXX_COMPILER__Vulkan
 #############################################
 # Link the executable src\VulkanWindow.exe
 
-build src\VulkanWindow.exe: CXX_EXECUTABLE_LINKER__VulkanWindow_Debug src\CMakeFiles\VulkanWindow.dir\main.cpp.obj src\CMakeFiles\VulkanWindow.dir\lve_window.cpp.obj src\CMakeFiles\VulkanWindow.dir\first_app.cpp.obj src\CMakeFiles\VulkanWindow.dir\lve_pipeline.cpp.obj | include\glfw\src\glfw3.lib include\glm\glm\glm.lib include\imgui\imgui.lib C$:\VulkanSDK\1.3.280.0\Lib\vulkan-1.lib include\glfw\src\glfw3.lib C$:\VulkanSDK\1.3.280.0\Lib\vulkan-1.lib || include\glfw\src\glfw3.lib include\glm\glm\glm.lib include\imgui\imgui.lib
+build src\VulkanWindow.exe: CXX_EXECUTABLE_LINKER__VulkanWindow_Debug src\CMakeFiles\VulkanWindow.dir\main.cpp.obj src\CMakeFiles\VulkanWindow.dir\lve_window.cpp.obj src\CMakeFiles\VulkanWindow.dir\first_app.cpp.obj src\CMakeFiles\VulkanWindow.dir\lve_device.cpp.obj | include\glfw\src\glfw3.lib include\glm\glm\glm.lib include\imgui\imgui.lib C$:\VulkanSDK\1.3.280.0\Lib\vulkan-1.lib include\glfw\src\glfw3.lib C$:\VulkanSDK\1.3.280.0\Lib\vulkan-1.lib || include\glfw\src\glfw3.lib include\glm\glm\glm.lib include\imgui\imgui.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = include\glfw\src\glfw3.lib  include\glm\glm\glm.lib  include\imgui\imgui.lib  C:\VulkanSDK\1.3.280.0\Lib\vulkan-1.lib  include\glfw\src\glfw3.lib  C:\VulkanSDK\1.3.280.0\Lib\vulkan-1.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -164,7 +164,7 @@ build src\VulkanWindow.exe: CXX_EXECUTABLE_LINKER__VulkanWindow_Debug src\CMakeF
 # Utility command for edit_cache
 
 build src\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -175,7 +175,7 @@ build src\edit_cache: phony src\CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build src\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -193,7 +193,7 @@ build src\list_install_components: phony
 # Utility command for install
 
 build src\CMakeFiles\install.util: CUSTOM_COMMAND src\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -205,7 +205,7 @@ build src\install: phony src\CMakeFiles\install.util
 # Utility command for install/local
 
 build src\CMakeFiles\install\local.util: CUSTOM_COMMAND src\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -214,7 +214,7 @@ build src\install\local: phony src\CMakeFiles\install\local.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/CMakeLists.txt
+# C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/CMakeLists.txt
 # =============================================================================
 
 
@@ -228,7 +228,7 @@ build include\glfw\uninstall: phony include\glfw\CMakeFiles\uninstall
 # Utility command for edit_cache
 
 build include\glfw\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -239,7 +239,7 @@ build include\glfw\edit_cache: phony include\glfw\CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build include\glfw\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -257,7 +257,7 @@ build include\glfw\list_install_components: phony
 # Utility command for install
 
 build include\glfw\CMakeFiles\install.util: CUSTOM_COMMAND include\glfw\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -269,7 +269,7 @@ build include\glfw\install: phony include\glfw\CMakeFiles\install.util
 # Utility command for install/local
 
 build include\glfw\CMakeFiles\install\local.util: CUSTOM_COMMAND include\glfw\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -281,11 +281,11 @@ build include\glfw\install\local: phony include\glfw\CMakeFiles\install\local.ut
 # Custom command for include\glfw\CMakeFiles\uninstall
 
 build include\glfw\CMakeFiles\uninstall | ${cmake_ninja_workdir}include\glfw\CMakeFiles\uninstall: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug/include/glfw/cmake_uninstall.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug/include/glfw/cmake_uninstall.cmake"
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/include/glfw/CMakeLists.txt
+# C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/include/glfw/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -297,190 +297,190 @@ build include\glfw\CMakeFiles\uninstall | ${cmake_ninja_workdir}include\glfw\CMa
 
 build cmake_object_order_depends_target_glfw: phony || include\glfw\src\CMakeFiles\glfw.dir
 
-build include\glfw\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\context.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\init.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\input.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\monitor.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\platform.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\platform.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\platform.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\vulkan.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\window.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\egl_context.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\osmesa_context.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\null_init.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\null_monitor.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\null_window.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\null_joystick.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\win32_module.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\win32_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\win32_time.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\win32_thread.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\win32_init.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\win32_joystick.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\win32_monitor.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\win32_window.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = include\glfw\src\glfw3.pdb
 
-build include\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\wgl_context.c || cmake_object_order_depends_target_glfw
+build include\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj: C_COMPILER__glfw_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI /W3
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src
   OBJECT_DIR = include\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = include\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = include\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -515,7 +515,7 @@ build include\glfw\src\update_mappings: phony include\glfw\src\CMakeFiles\update
 # Utility command for edit_cache
 
 build include\glfw\src\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -526,7 +526,7 @@ build include\glfw\src\edit_cache: phony include\glfw\src\CMakeFiles\edit_cache.
 # Utility command for rebuild_cache
 
 build include\glfw\src\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -544,7 +544,7 @@ build include\glfw\src\list_install_components: phony
 # Utility command for install
 
 build include\glfw\src\CMakeFiles\install.util: CUSTOM_COMMAND include\glfw\src\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -556,7 +556,7 @@ build include\glfw\src\install: phony include\glfw\src\CMakeFiles\install.util
 # Utility command for install/local
 
 build include\glfw\src\CMakeFiles\install\local.util: CUSTOM_COMMAND include\glfw\src\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -568,12 +568,12 @@ build include\glfw\src\install\local: phony include\glfw\src\CMakeFiles\install\
 # Custom command for include\glfw\src\CMakeFiles\update_mappings
 
 build include\glfw\src\CMakeFiles\update_mappings | ${cmake_ninja_workdir}include\glfw\src\CMakeFiles\update_mappings: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/include/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/include/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
   DESC = Updating gamepad mappings from upstream repository
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/include/glfw/CMakeLists.txt
+# C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/include/glfw/CMakeLists.txt
 # =============================================================================
 
 
@@ -587,7 +587,7 @@ build include\glfw\docs\docs: phony
 # Utility command for edit_cache
 
 build include\glfw\docs\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\docs && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\docs && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -598,7 +598,7 @@ build include\glfw\docs\edit_cache: phony include\glfw\docs\CMakeFiles\edit_cach
 # Utility command for rebuild_cache
 
 build include\glfw\docs\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\docs && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\docs && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -616,7 +616,7 @@ build include\glfw\docs\list_install_components: phony
 # Utility command for install
 
 build include\glfw\docs\CMakeFiles\install.util: CUSTOM_COMMAND include\glfw\docs\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\docs && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\docs && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -628,7 +628,7 @@ build include\glfw\docs\install: phony include\glfw\docs\CMakeFiles\install.util
 # Utility command for install/local
 
 build include\glfw\docs\CMakeFiles\install\local.util: CUSTOM_COMMAND include\glfw\docs\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glfw\docs && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glfw\docs && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -637,7 +637,7 @@ build include\glfw\docs\install\local: phony include\glfw\docs\CMakeFiles\instal
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/CMakeLists.txt
+# C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/CMakeLists.txt
 # =============================================================================
 
 
@@ -645,7 +645,7 @@ build include\glfw\docs\install\local: phony include\glfw\docs\CMakeFiles\instal
 # Utility command for edit_cache
 
 build include\glm\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -656,7 +656,7 @@ build include\glm\edit_cache: phony include\glm\CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build include\glm\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -674,7 +674,7 @@ build include\glm\list_install_components: phony
 # Utility command for install
 
 build include\glm\CMakeFiles\install.util: CUSTOM_COMMAND include\glm\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -686,7 +686,7 @@ build include\glm\install: phony include\glm\CMakeFiles\install.util
 # Utility command for install/local
 
 build include\glm\CMakeFiles\install\local.util: CUSTOM_COMMAND include\glm\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -695,7 +695,7 @@ build include\glm\install\local: phony include\glm\CMakeFiles\install\local.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/include/glm/CMakeLists.txt
+# C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/include/glm/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -707,9 +707,9 @@ build include\glm\install\local: phony include\glm\CMakeFiles\install\local.util
 
 build cmake_object_order_depends_target_glm: phony || include\glm\glm\CMakeFiles\glm.dir
 
-build include\glm\glm\CMakeFiles\glm.dir\detail\glm.cpp.obj: CXX_COMPILER__glm_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glm\glm\detail\glm.cpp || cmake_object_order_depends_target_glm
+build include\glm\glm\CMakeFiles\glm.dir\detail\glm.cpp.obj: CXX_COMPILER__glm_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glm\glm\detail\glm.cpp || cmake_object_order_depends_target_glm
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /Za /fp:precise
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glm
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glm
   OBJECT_DIR = include\glm\glm\CMakeFiles\glm.dir
   OBJECT_FILE_DIR = include\glm\glm\CMakeFiles\glm.dir\detail
   TARGET_COMPILE_PDB = include\glm\glm\CMakeFiles\glm.dir\glm.pdb
@@ -738,7 +738,7 @@ build include\glm\glm\glm.lib: CXX_STATIC_LIBRARY_LINKER__glm_Debug include\glm\
 # Utility command for edit_cache
 
 build include\glm\glm\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glm\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glm\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -749,7 +749,7 @@ build include\glm\glm\edit_cache: phony include\glm\glm\CMakeFiles\edit_cache.ut
 # Utility command for rebuild_cache
 
 build include\glm\glm\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glm\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glm\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -767,7 +767,7 @@ build include\glm\glm\list_install_components: phony
 # Utility command for install
 
 build include\glm\glm\CMakeFiles\install.util: CUSTOM_COMMAND include\glm\glm\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glm\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glm\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -779,7 +779,7 @@ build include\glm\glm\install: phony include\glm\glm\CMakeFiles\install.util
 # Utility command for install/local
 
 build include\glm\glm\CMakeFiles\install\local.util: CUSTOM_COMMAND include\glm\glm\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\glm\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\glm\glm && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -788,7 +788,7 @@ build include\glm\glm\install\local: phony include\glm\glm\CMakeFiles\install\lo
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/CMakeLists.txt
+# C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -800,57 +800,57 @@ build include\glm\glm\install\local: phony include\glm\glm\CMakeFiles\install\lo
 
 build cmake_object_order_depends_target_imgui: phony || cmake_object_order_depends_target_glfw
 
-build include\imgui\CMakeFiles\imgui.dir\imgui.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui\imgui.cpp || cmake_object_order_depends_target_imgui
+build include\imgui\CMakeFiles\imgui.dir\imgui.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui\imgui.cpp || cmake_object_order_depends_target_imgui
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include
   OBJECT_DIR = include\imgui\CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = include\imgui\CMakeFiles\imgui.dir
   TARGET_COMPILE_PDB = include\imgui\CMakeFiles\imgui.dir\imgui.pdb
   TARGET_PDB = include\imgui\imgui.pdb
 
-build include\imgui\CMakeFiles\imgui.dir\imgui_demo.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui\imgui_demo.cpp || cmake_object_order_depends_target_imgui
+build include\imgui\CMakeFiles\imgui.dir\imgui_demo.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui\imgui_demo.cpp || cmake_object_order_depends_target_imgui
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include
   OBJECT_DIR = include\imgui\CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = include\imgui\CMakeFiles\imgui.dir
   TARGET_COMPILE_PDB = include\imgui\CMakeFiles\imgui.dir\imgui.pdb
   TARGET_PDB = include\imgui\imgui.pdb
 
-build include\imgui\CMakeFiles\imgui.dir\imgui_draw.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui\imgui_draw.cpp || cmake_object_order_depends_target_imgui
+build include\imgui\CMakeFiles\imgui.dir\imgui_draw.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui\imgui_draw.cpp || cmake_object_order_depends_target_imgui
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include
   OBJECT_DIR = include\imgui\CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = include\imgui\CMakeFiles\imgui.dir
   TARGET_COMPILE_PDB = include\imgui\CMakeFiles\imgui.dir\imgui.pdb
   TARGET_PDB = include\imgui\imgui.pdb
 
-build include\imgui\CMakeFiles\imgui.dir\imgui_tables.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui\imgui_tables.cpp || cmake_object_order_depends_target_imgui
+build include\imgui\CMakeFiles\imgui.dir\imgui_tables.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui\imgui_tables.cpp || cmake_object_order_depends_target_imgui
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include
   OBJECT_DIR = include\imgui\CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = include\imgui\CMakeFiles\imgui.dir
   TARGET_COMPILE_PDB = include\imgui\CMakeFiles\imgui.dir\imgui.pdb
   TARGET_PDB = include\imgui\imgui.pdb
 
-build include\imgui\CMakeFiles\imgui.dir\imgui_widgets.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui\imgui_widgets.cpp || cmake_object_order_depends_target_imgui
+build include\imgui\CMakeFiles\imgui.dir\imgui_widgets.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui\imgui_widgets.cpp || cmake_object_order_depends_target_imgui
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include
   OBJECT_DIR = include\imgui\CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = include\imgui\CMakeFiles\imgui.dir
   TARGET_COMPILE_PDB = include\imgui\CMakeFiles\imgui.dir\imgui.pdb
   TARGET_PDB = include\imgui\imgui.pdb
 
-build include\imgui\CMakeFiles\imgui.dir\backends\imgui_impl_vulkan.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui\backends\imgui_impl_vulkan.cpp || cmake_object_order_depends_target_imgui
+build include\imgui\CMakeFiles\imgui.dir\backends\imgui_impl_vulkan.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui\backends\imgui_impl_vulkan.cpp || cmake_object_order_depends_target_imgui
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include
   OBJECT_DIR = include\imgui\CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = include\imgui\CMakeFiles\imgui.dir\backends
   TARGET_COMPILE_PDB = include\imgui\CMakeFiles\imgui.dir\imgui.pdb
   TARGET_PDB = include\imgui\imgui.pdb
 
-build include\imgui\CMakeFiles\imgui.dir\backends\imgui_impl_glfw.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui\backends\imgui_impl_glfw.cpp || cmake_object_order_depends_target_imgui
+build include\imgui\CMakeFiles\imgui.dir\backends\imgui_impl_glfw.cpp.obj: CXX_COMPILER__imgui_Debug C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui\backends\imgui_impl_glfw.cpp || cmake_object_order_depends_target_imgui
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
-  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\include
+  INCLUDES = -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui -IC:\VulkanSDK\1.3.280.0\Include -IC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\include
   OBJECT_DIR = include\imgui\CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = include\imgui\CMakeFiles\imgui.dir\backends
   TARGET_COMPILE_PDB = include\imgui\CMakeFiles\imgui.dir\imgui.pdb
@@ -879,7 +879,7 @@ build include\imgui\imgui.lib: CXX_STATIC_LIBRARY_LINKER__imgui_Debug include\im
 # Utility command for edit_cache
 
 build include\imgui\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\imgui && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\imgui && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -890,7 +890,7 @@ build include\imgui\edit_cache: phony include\imgui\CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build include\imgui\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\imgui && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\imgui && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -908,7 +908,7 @@ build include\imgui\list_install_components: phony
 # Utility command for install
 
 build include\imgui\CMakeFiles\install.util: CUSTOM_COMMAND include\imgui\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\imgui && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\imgui && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -920,7 +920,7 @@ build include\imgui\install: phony include\imgui\CMakeFiles\install.util
 # Utility command for install/local
 
 build include\imgui\CMakeFiles\install\local.util: CUSTOM_COMMAND include\imgui\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug\include\imgui && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug\include\imgui && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -958,56 +958,56 @@ build update_mappings: phony include\glfw\src\update_mappings
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug
+# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug
 
 build all: phony src\all include\glfw\all include\glm\all include\imgui\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug/include/glfw
+# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug/include/glfw
 
 build include\glfw\all: phony include\glfw\src\all include\glfw\docs\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug/include/glfw/docs
+# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug/include/glfw/docs
 
 build include\glfw\docs\all: phony include\glfw\docs\docs
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug/include/glfw/src
+# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug/include/glfw/src
 
 build include\glfw\src\all: phony include\glfw\src\glfw3.lib
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug/include/glm
+# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug/include/glm
 
 build include\glm\all: phony include\glm\glm\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug/include/glm/glm
+# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug/include/glm/glm
 
 build include\glm\glm\all: phony include\glm\glm\glm.lib
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug/include/imgui
+# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug/include/imgui
 
 build include\imgui\all: phony include\imgui\imgui.lib
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug/src
+# Folder: C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug/src
 
 build src\all: phony src\VulkanWindow.exe
 
@@ -1018,14 +1018,14 @@ build src\all: phony src\VulkanWindow.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindDoxygen.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindThreads.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindVulkan.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\CMake\cmake_uninstall.cmake.in C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\CMake\glfw3.pc.in C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\CMake\glfw3Config.cmake.in C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\docs\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\docs\Doxyfile.in C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glm\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glm\glm\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\src\CMakeLists.txt CMakeCache.txt CMakeFiles\3.25.1-msvc1\CMakeCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindDoxygen.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindThreads.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindVulkan.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\CMake\cmake_uninstall.cmake.in C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\CMake\glfw3.pc.in C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\CMake\glfw3Config.cmake.in C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\docs\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\docs\Doxyfile.in C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glm\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glm\glm\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\src\CMakeLists.txt CMakeCache.txt CMakeFiles\3.25.1-msvc1\CMakeCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindDoxygen.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindThreads.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindVulkan.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\CMake\cmake_uninstall.cmake.in C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\CMake\glfw3.pc.in C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\CMake\glfw3Config.cmake.in C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\docs\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\docs\Doxyfile.in C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glfw\src\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glm\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\glm\glm\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\include\imgui\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\src\CMakeLists.txt CMakeCache.txt CMakeFiles\3.25.1-msvc1\CMakeCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeSystem.cmake: phony
+build C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindDoxygen.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindThreads.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindVulkan.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\CMake\cmake_uninstall.cmake.in C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\CMake\glfw3.pc.in C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\CMake\glfw3Config.cmake.in C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\docs\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\docs\Doxyfile.in C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glfw\src\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glm\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\glm\glm\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\include\imgui\CMakeLists.txt C$:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\src\CMakeLists.txt CMakeCache.txt CMakeFiles\3.25.1-msvc1\CMakeCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeSystem.cmake: phony
 
 
 #############################################

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/include/glm/glm
+# Install script for directory: C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/include/glm/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

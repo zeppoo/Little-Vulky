@@ -195,7 +195,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "VulkanWindow::@145eef247bfb46b6828c",
-					"jsonFile" : "target-VulkanWindow-Debug-9231ab11ce5c396a5d2b.json",
+					"jsonFile" : "target-VulkanWindow-Debug-91f7d425386be9e5419b.json",
 					"name" : "VulkanWindow",
 					"projectIndex" : 0
 				},
@@ -209,21 +209,21 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "glfw::@7cf4cdf8cc575720cdf7",
-					"jsonFile" : "target-glfw-Debug-19c837b4a3f41f6b6912.json",
+					"jsonFile" : "target-glfw-Debug-cf47dfcd4afc958b052c.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "glm::@f333b854a52c10d65a86",
-					"jsonFile" : "target-glm-Debug-1f93e4ac172c4afde8dc.json",
+					"jsonFile" : "target-glm-Debug-89658fe78e2457f787f5.json",
 					"name" : "glm",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "imgui::@db93816ce3ecb80b02b7",
-					"jsonFile" : "target-imgui-Debug-1b7c9b195c934c265cd4.json",
+					"jsonFile" : "target-imgui-Debug-1039b2862b427be1af28.json",
 					"name" : "imgui",
 					"projectIndex" : 0
 				},
@@ -247,8 +247,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug",
-		"source" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow"
+		"build" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug",
+		"source" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow"
 	},
 	"version" : 
 	{

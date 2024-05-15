@@ -76,7 +76,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/include/imgui"
+					"path" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/include/imgui"
 				},
 				{
 					"backtrace" : 5,
@@ -84,7 +84,7 @@
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/include/glfw/include"
+					"path" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/include/glfw/include"
 				}
 			],
 			"language" : "CXX",

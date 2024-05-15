@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/include/glfw/docs
+# Install script for directory: C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/include/glfw/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/GLFW" TYPE DIRECTORY FILES "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug/include/glfw/docs/html")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/GLFW" TYPE DIRECTORY FILES "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug/include/glfw/docs/html")
 endif()
 

@@ -101,7 +101,7 @@ rule CXX_STATIC_LIBRARY_LINKER__imgui_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\VulkanWindow\out\build\x64-Debug
+  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow -BC:\Users\ReinV\Personal\Coding\C++\Projects\Little-Vulky\VulkanWindow\out\build\x64-Debug
   description = Re-running CMake...
   generator = 1
 

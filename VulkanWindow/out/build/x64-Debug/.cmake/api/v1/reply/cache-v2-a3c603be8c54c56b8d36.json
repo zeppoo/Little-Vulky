@@ -51,7 +51,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug"
+			"value" : "c:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow"
+			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -779,7 +779,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/install/x64-Debug"
+			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/install/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -1491,7 +1491,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug/include/glfw"
+			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug/include/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -1623,7 +1623,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/include/glfw"
+			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/include/glfw"
 		},
 		{
 			"name" : "GLFW_USE_HYBRID_HPG",
@@ -1911,7 +1911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug"
+			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug"
 		},
 		{
 			"name" : "VulkanWindow_IS_TOP_LEVEL",
@@ -1935,7 +1935,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow"
+			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow"
 		},
 		{
 			"name" : "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE",
@@ -2011,7 +2011,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/install/x64-Debug"
+			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/install/x64-Debug"
 		},
 		{
 			"name" : "glfw3_DIR",
@@ -2047,7 +2047,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug/include/glm"
+			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug/include/glm"
 		},
 		{
 			"name" : "glm_IS_TOP_LEVEL",
@@ -2071,7 +2071,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/include/glm"
+			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/include/glm"
 		},
 		{
 			"name" : "imgui_LIB_DEPENDS",
@@ -2095,7 +2095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug"
+			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug"
 		},
 		{
 			"name" : "imgui_example_glfw_vulkan_IS_TOP_LEVEL",
@@ -2119,7 +2119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow"
+			"value" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow"
 		}
 	],
 	"kind" : "cache",

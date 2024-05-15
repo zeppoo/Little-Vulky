@@ -141,15 +141,15 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/include/glfw/include"
+					"path" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/include/glfw/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/include/glfw/src"
+					"path" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/include/glfw/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/build/x64-Debug/include/glfw/src"
+					"path" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/build/x64-Debug/include/glfw/src"
 				}
 			],
 			"language" : "C",
@@ -203,7 +203,7 @@
 		],
 		"prefix" : 
 		{
-			"path" : "C:/Users/ReinV/Personal/Coding/C++/Projects/VulkanWindow/out/install/x64-Debug"
+			"path" : "C:/Users/ReinV/Personal/Coding/C++/Projects/Little-Vulky/VulkanWindow/out/install/x64-Debug"
 		}
 	},
 	"name" : "glfw",
